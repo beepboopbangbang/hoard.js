@@ -1,6 +1,6 @@
 {
   "name": "hoard-cli",
-  "version": "0.0.0",
+  "version": "0.0.0-1",
   "description": "A small (zero dependency) Node.js CLI utility to clone & hoard repositories quickly",
   "homepage": "https://github.com/beepboopbangbang/hoard.js",
   "repository": {
@@ -26,8 +26,10 @@
     "hoard": "bin/hoard.js"
   },
   "files": [
-    "bin/",
-    "lib/"
+    "bin/hoard.js",
+    "lib/apis/github.js",
+    "lib/apis/gitlab.js",
+    "lib/*.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
