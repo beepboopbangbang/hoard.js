@@ -1,0 +1,43 @@
+{
+  "name": "hoard-cli",
+  "version": "0.0.0",
+  "description": "A small (zero dependency) Node.js CLI utility to clone & hoard repositories quickly",
+  "homepage": "https://github.com/beepboopbangbang/hoard.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beepboopbangbang/hoard.js.git"
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "devops",
+    "dx"
+  ],
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/jojobyte"
+    },
+    "https://ko-fi.com/jojobyte",
+    "https://liberapay.com/jojobyte/"
+  ],
+  "type": "module",
+  "bin": {
+    "hoard": "bin/hoard.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jojobyte <byte@jojo.io> (https://jojo.io/)",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
