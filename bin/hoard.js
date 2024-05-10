@@ -55,6 +55,10 @@ let {
 
 APP_BINS = Object.keys(APP_BINS)
 
+if (APP_REPO.startsWith('git+')) {
+  APP_REPO = APP_REPO.substring(4)
+}
+
 let APP_NS = new URL(APP_REPO)
 let APP_PATH = APP_NS.pathname.substring(1).split('.git')[0]
 let [APP_OWNER] = APP_PATH.split('/')
