@@ -5,7 +5,7 @@
   "homepage": "https://github.com/beepboopbangbang/hoard.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/beepboopbangbang/hoard.js.git"
+    "url": "git+https://github.com/beepboopbangbang/hoard.js.git"
   },
   "keywords": [
     "cli",
