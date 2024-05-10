@@ -37,7 +37,7 @@
   "author": "jojobyte <byte@jojo.io> (https://jojo.io/)",
   "license": "MIT",
   "engines": {
-    "node": "^18.2.0"
+    "node": ">=22"
   },
   "publishConfig": {
     "access": "public"

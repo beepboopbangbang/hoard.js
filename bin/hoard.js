@@ -4,7 +4,10 @@ process.removeAllListeners('warning')
 process.on('SIGTERM', () => process.exit());
 process.on('SIGINT', () => process.exit());
 
-import pkg from '../package.json' assert { type: 'json' }
+const { default: pkg } = await import(
+  '../package.json',
+  { with: { type: 'json' } },
+)
 
 import { spawnGit } from '../lib/spawn.js'
 import {
