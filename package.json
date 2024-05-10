@@ -1,6 +1,6 @@
 {
   "name": "hoard-cli",
-  "version": "0.0.0-1",
+  "version": "0.0.0-2",
   "description": "A small (zero dependency) Node.js CLI utility to clone & hoard repositories quickly",
   "homepage": "https://github.com/beepboopbangbang/hoard.js",
   "repository": {
